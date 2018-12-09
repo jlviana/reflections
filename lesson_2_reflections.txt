@@ -1,0 +1,10 @@
+>> O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+Um diretório .git é adicionado ao repositório. Os arquivos contidos no repositório
+ainda não estão sendo rastreados. Para isso acontecer, é necessário adicioná-los
+usando o comando "git add <file>...".
+
+
+>> Em que se difere a área de preparação do diretório de trabalho e do repositório?
+Qual valor você acha que ela oferece?
+A área de preparação funciona como uma área de testes, que permite validar se está tudo
+funcionando corretamente antes de enviar para produção.

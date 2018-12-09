@@ -1,37 +1,34 @@
 >> Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug
 que foi introduzido?
-
 A visualização do diff vai me mostrar somente as linhas onde houve alguma mudança em relação
 à versão anterior, o que ajuda a identificar mais rápido onde está o bug.
 
 
-
 >> Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador
 mais eficiente no longo prazo?
-
 Tanto os problemas como as melhores práticas observadas ao longo do desenvolvimento
 do projeto ficarão documentadas, o que me permitirá saber o que fazer e o que não fazer
 quando me deparar com situação semelhante no futuro.
 
 
 >> Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit,
- como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
 Prós: Poder criar o commit na medida certa, separando alterações em seções distintas em diferentes
 commits;
 Contras: Posso esquecer de fazer commits intermediários e o commit ficar muito grande;
 
 
 >>  Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar
- vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo
- separadamente?
- Sistemas como o Google Docs foram feitos para trabalhar com um arquivo de cada vez. Sistemas
- como o Git foram feitos para controle de versão no desenvolvimento de softwares, e nesse caso
- é normal trabalhar com múltiplos arquivos ao mesmo tempo.
+vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo
+separadamente?
+Sistemas como o Google Docs foram feitos para trabalhar com um arquivo de cada vez. Sistemas
+como o Git foram feitos para controle de versão no desenvolvimento de softwares, e nesse caso
+é normal trabalhar com múltiplos arquivos ao mesmo tempo.
 
 
- >> Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
- O comando git log mostra o histórico de todos os commits em um repositório. Já com o git diff, é possível comparar
- dois commits a fim de verificar a diferença entre eles.
+>> Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+O comando git log mostra o histórico de todos os commits em um repositório. Já com o git diff, é possível comparar
+dois commits a fim de verificar a diferença entre eles.
 
 
 >> De que modo o controle de versão pode dar a você mais segurança para fazer alterações que
